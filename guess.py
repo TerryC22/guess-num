@@ -8,12 +8,13 @@ while True:
 	x_int = int(x)
 	if x_int == r:
 		if i == 1:
-			print('猜對了')
+			print('你1次就猜對了！好棒棒！')
 			break
 		else:
-			print('終於猜對了')
+			print('你猜', i, '次終於猜對了！還不賴！')
 			break
 	elif x_int > r:
 		print('比答案大')
 	else:
 		print('比答案小')
+	print('這是你猜的第', i, '次')
